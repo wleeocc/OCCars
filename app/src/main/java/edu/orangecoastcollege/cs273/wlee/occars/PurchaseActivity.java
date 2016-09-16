@@ -25,7 +25,7 @@ public class PurchaseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_purchase);
 
         carPriceEditText = (EditText)findViewById(R.id.carPriceEditText);
-
+        downPaymentEditText = (EditText)findViewById(R.id.downPaymentEditText);
 
         currentCar = new Car();
     }
